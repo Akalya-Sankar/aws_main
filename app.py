@@ -8,10 +8,10 @@ app.secret_key = 'temporary_key'
 
 def get_db_connection():
     return mysql.connector.connect(
-        host='clonedb1.ct08cmkomfco.us-east-1.rds.amazonaws.com',
+        host='clonedb.cnsmioam4vvm.eu-north-1.rds.amazonaws.com',
         user='admin',
-        password='Psad-1357',
-        database='clone_db1'
+        password='akalya03',
+        database='clone_db'
     )
 
 @app.route('/register', methods=['GET', 'POST'])
